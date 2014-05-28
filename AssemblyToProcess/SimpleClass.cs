@@ -73,11 +73,6 @@ public class SimpleClass
         nonNullOutArg = null;
     }
 
-    public void PublicWrapperOfPrivateMethod()
-    {
-        SomePrivateMethod(null);
-    }
-
     private void SomePrivateMethod(string x)
     {
         Console.WriteLine(x);
