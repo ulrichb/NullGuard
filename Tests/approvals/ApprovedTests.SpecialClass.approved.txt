@@ -44,9 +44,8 @@
       .override [mscorlib]System.Collections.IEnumerator::MoveNext
       // Code size       92 (0x5c)
       .maxstack  3
-      .locals init ([0] int32 ,
-               [1] int32 V_1)
-      .language '{3F5162F8-07C6-11D3-9053-00C04FA302A1}', '{994B45C4-E6E9-11D2-903F-00C04FA302A1}', '{5A869D0B-6611-11D3-BD2A-0000F80849BD}'
+      .locals init (int32 V_0,
+               int32 V_1)
       IL_0000:  ldarg.0
       IL_0001:  ldfld      int32 SpecialClass/'<CountTo>d__0'::'<>1__state'
       IL_0006:  stloc.0
@@ -212,9 +211,9 @@
       .override [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine::MoveNext
       // Code size       178 (0xb2)
       .maxstack  3
-      .locals init ([0] int32 ,
-               [1] valuetype [mscorlib]System.Runtime.CompilerServices.TaskAwaiter V_1,
-               [2] class [mscorlib]System.Exception V_2)
+      .locals init (int32 V_0,
+               valuetype [mscorlib]System.Runtime.CompilerServices.TaskAwaiter V_1,
+               class [mscorlib]System.Exception V_2)
       IL_0000:  ldarg.0
       IL_0001:  ldfld      int32 SpecialClass/'<SomeMethodAsync>d__1'::'<>1__state'
       IL_0006:  stloc.0
@@ -342,10 +341,10 @@
       .override [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine::MoveNext
       // Code size       220 (0xdc)
       .maxstack  4
-      .locals init ([0] int32 ,
-               [1] string V_1,
-               [2] valuetype [mscorlib]System.Runtime.CompilerServices.TaskAwaiter`1<string> V_2,
-               [3] class [mscorlib]System.Exception V_3)
+      .locals init (int32 V_0,
+               string V_1,
+               valuetype [mscorlib]System.Runtime.CompilerServices.TaskAwaiter`1<string> V_2,
+               class [mscorlib]System.Exception V_3)
       IL_0000:  ldarg.0
       IL_0001:  ldfld      int32 SpecialClass/'<MethodWithReturnValueAsync>d__2'::'<>1__state'
       IL_0006:  stloc.0
@@ -466,10 +465,10 @@
       .override [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine::MoveNext
       // Code size       155 (0x9b)
       .maxstack  3
-      .locals init ([0] int32 ,
-               [1] string V_1,
-               [2] valuetype [mscorlib]System.Runtime.CompilerServices.TaskAwaiter V_2,
-               [3] class [mscorlib]System.Exception V_3)
+      .locals init (int32 V_0,
+               string V_1,
+               valuetype [mscorlib]System.Runtime.CompilerServices.TaskAwaiter V_2,
+               class [mscorlib]System.Exception V_3)
       IL_0000:  ldarg.0
       IL_0001:  ldfld      int32 SpecialClass/'<MethodAllowsNullReturnValueAsync>d__3'::'<>1__state'
       IL_0006:  stloc.0
@@ -564,8 +563,8 @@
       .override [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine::MoveNext
       // Code size       49 (0x31)
       .maxstack  2
-      .locals init ([0] int32 ,
-               [1] class [mscorlib]System.Exception V_1)
+      .locals init (int32 V_0,
+               class [mscorlib]System.Exception V_1)
       .try
       {
         IL_0000:  ldc.i4.s   42
